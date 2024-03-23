@@ -1,0 +1,582 @@
+[AdventCustodian X2CharacterTemplate]
+strCharacterName="变种人看守人"
+strAcquiredText="看守人是强大的变种人步兵，拥有毁灭性的近距离武器"
+
+[AdventCustodianMaster X2CharacterTemplate]
+strCharacterName="变种人看守人大师"
+strAcquiredText="看守人大师使用可击穿护甲的远程火炮武器"
+
+[AdventCustodian_Shotgun X2WeaponTemplate]
+FriendlyName="变种人看守人霰弹枪"
+FriendlyNamePlural="变种人看守人霰弹枪"
+BriefSummary="看守人使用需要冷却的个性化霰弹枪，而不是手动装弹"
+TacticalText="<Bullet/> 使用主武器开火总是结束士兵的回合\n<Bullet/>"
+
+[AdventCustodian_Pistol X2WeaponTemplate]
+FriendlyName="变种人看守人手枪"
+FriendlyNamePlural="变种人看守人手枪"
+BriefSummary="看守人手枪配有激光瞄准器，可获得更高的暴击率"
+TacticalText="<Bullet/> 使用此武器开火不消耗行动点\n<Bullet/>"
+
+[AdventCustodian_Rifle X2WeaponTemplate]
+FriendlyName="变种人看守人步枪"
+FriendlyNamePlural="变种人看守人步枪"
+BriefSummary="看守人大师使用单手激光瞄准器突击步枪，具有超强的远距离作战能力"
+TacticalText="<Bullet/> 使用主武器开火总是结束士兵的回合\n<Bullet/>"
+
+[AdventCustodian_DestroyerGauntlet X2WeaponTemplate]
+FriendlyName="变种人看守人毁灭者护手"
+FriendlyNamePlural="变种人看守人毁灭者护手"
+BriefSummary="看守人毁灭者长手套是一种毁灭性的近战武器，最适合在徒手格斗中使用"
+TacticalText="<Bullet/> 这种近战武器总是结束士兵的回合\n<Bullet/>"
+
+[AdventCustodian_Rockets X2WeaponTemplate]
+FriendlyName="变种人看守人集束火箭"
+FriendlyNamePlural="变种人看守人集束火箭"
+BriefSummary="看守人大师使用远程迫击炮，能够发射集束火箭，无视所有装甲"
+TacticalText="<Bullet/> 使用主武器开火总是结束士兵的回合\n<Bullet/>"
+
+[CustodianRockets X2AbilityTemplate]
+LocFriendlyName="护卫者集束火箭"
+LocLongDescription="看守人大师的集束火箭发射 4 枚炸弹，这些炸弹会碎裂成数以千计的小碎片，能够无视巨大半径范围内的所有装甲"
+LocHelpText="用爆炸性火箭弹攻击大片区域。"
+
+[DestroyerGauntlet X2AbilityTemplate]
+LocFriendlyName="Destroyer Gauntlet"
+LocLongDescription="Custodian Destroyer Gauntlets are capable of unleashing a devastatingly powerful strike in melee range"
+LocHelpText="Fire at a melee target for massive damage"
+LocFlyOverText="Destroyer Gauntlet"
+
+[CustodianLightningHands X2AbilityTemplate]
+LocFriendlyName="Cyclonic Hands"
+LocLongDescription="Despite their large size, Custodians are surprisingly nimble when firing their pistol"
+LocHelpText="Fire your Custodian Pistol at a target. This attack does not cost an action."
+LocFlyOverText="Cyclonic Hands"
+
+[AdventCustodian_TowerShield X2WeaponTemplate]
+FriendlyName="ADVENT Custodian Tower Shield"
+FriendlyNamePlural="ADVENT Custodian Tower Shields"
+BriefSummary="Thick enough to be Sectopod plating, these enormous shields allow Custodians to shrug must weapon fire"
+
+[AdventCustodianMaster_TowerShield X2WeaponTemplate]
+FriendlyName="ADVENT Custodian Master Tower Shield"
+FriendlyNamePlural="ADVENT Custodian Master Tower Shields"
+BriefSummary="The shields of Custodian Masters are reinforced with even thicker armor plates"
+
+[CustodianMasterBlastPadding X2AbilityTemplate]
+LocFriendlyName="Custodian Master Blast Padding"
+LocLongDescription="Custodian Masters armor includes layers of extra padding and blast plates, granting a bonus point of Armor and <Ability:CustodianMasterBlastPadding/>% less damage from explosive attacks."
+LocHelpText="Gain a bonus point of Armor and reduce explosive damage taken."
+LocFlyOverText="Custodian Master Blast Padding"
+
+;Place localized text in this file
+
+[ExaltedCustodian X2CharacterTemplate]
+strCharacterName="ADVENT Exalted Custodian"
+strAcquiredText="Exalted Custodians are power armored Advent Infantry with devastating close range weapons"
+
+[ExaltedCustodian_Grandmaster X2CharacterTemplate]
+strCharacterName="ADVENT Exalted Custodian Grandmaster"
+strAcquiredText="Custodian GrandmastersMasters use a long range artillery weapon that bypasses armor, and are able to become proxies for the Advent Network to greatly buff Advent allies"
+
+[ExaltedShotgun X2WeaponTemplate]
+FriendlyName="Exalted Custodian Shotgun"
+FriendlyNamePlural="Exalted Custodian Shotguns"
+BriefSummary="Exalted Custodian use extremely powerful Plasma Shotguns"
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn\n<Bullet/>"
+
+[ExaltedPistol X2WeaponTemplate]
+FriendlyName="Exalted Custodian Pistol"
+FriendlyNamePlural="Exalted Custodian Pistols"
+BriefSummary="Exalted Pistols come outfitted with a laser sight for superior critical hit chance"
+TacticalText="<Bullet/> Firing this weapon doesn't take Action Points\n<Bullet/>"
+
+[ExaltedRifle X2WeaponTemplate]
+FriendlyName="Exalted Custodian Rifle"
+FriendlyNamePlural="Exalted Custodian Rifles"
+BriefSummary="Exalted Custodian Grandmasters use a one handed laser sighted assault rifle for superior long range capabilities"
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn\n<Bullet/>"
+
+[ExaltedGauntlet X2WeaponTemplate]
+FriendlyName="Exalted Breaker Gauntlet"
+FriendlyNamePlural="Exalted Breaker Gauntlets"
+BriefSummary="The Exalted Breaker Gauntlet is a devastating point blank weapon best utilized in hand to hand combat"
+TacticalText="<Bullet/> This melee weapon will always end the soldier's turn\n<Bullet/>"
+
+[ExaltedRockets X2WeaponTemplate]
+FriendlyName="Exalted Custodian Cluster Rocket"
+FriendlyNamePlural="Exalted Custodian Cluster Rockets"
+BriefSummary="Exalted Grandmasters use a long range mortar capable of firing cluster rockets that bypass all armor"
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn\n<Bullet/>"
+
+[ExaltedRockets X2AbilityTemplate]
+LocFriendlyName="Exalted Cluster Rockets"
+LocLongDescription="The Exalted Grandmaster's Cluster Rockets fires 4 bombs that fracture into thousands of small shards capable of bypassing all armor in an enormous radius"
+LocHelpText="Target a large area(8 Radius) with an explosive rocket attack that bypasses up to 15 points of armor, dealing 6 damage."
+LocFlyOverText="Cluster Rocket"
+
+[NetworkProxyCommand X2AbilityTemplate]
+LocFriendlyName="Network Proxy Command"
+LocLongDescription="The Exalted Grandmaster becomes a proxy of the Advent Network, greatly boosting the capabilities of allied Advent"
+LocHelpText="Map wide buff that grants a buff to allied Advent, buffing mobility(+2), aim(+5), crit chance(+10), hp(+5), armor(+2), will(+100) and defense(+10) while the Grandmaster is alive."
+LocFlyOverText="Network Proxy Command"
+
+[BreakerGauntlet X2AbilityTemplate]
+LocFriendlyName="Breaker Gauntlet"
+LocLongDescription="The Breaker Gauntlet is a close range melee weapon that deals devastating damage"
+LocHelpText="The Breaker Gauntlet deals 24 melee damage, cannot use as a dash attack, user needs to blue move to target to activate ability, has +100 aim bonus."
+LocFlyOverText="Breaker"
+
+[ExaltedStormHands X2AbilityTemplate]
+LocFriendlyName="Storm Hand"
+LocLongDescription="Exalted Custodians fire their pistol. This attack does not cost an action."
+LocHelpText="This attack does not cost an action. Deals 6 damage, can crit for up to 4 damage."
+LocFlyOverText="Storm Hand"
+
+[ChargedShot X2AbilityTemplate]
+LocFriendlyName="Pistol Charged Shot"
+LocLongDescription="Exalted Pistols are capable of overcharging a shot to deal increased damage"
+LocHelpText="Overcharged Pistol shot that deals 10 damage, pierces 4 points of armor, shreds 2 points of armor, 8 turn cooldown, -10 aim penalty."
+LocFlyOverText="Pistol Charged Shot"
+
+[SpeedBoostTrigger X2AbilityTemplate]
+LocFriendlyName="Speed Booster"
+LocLongDescription="Exalted Custodian Power Armor converts damage taken into a +1 mobility buff that lasts for the duration of the enemy turn"
+LocHelpText="Exalted Custodian Power Armor converts damage taken into a +1 mobility buff that lasts for the duration of the enemy turn"
+LocFlyOverText="Speed Booster Activated"
+
+[SpeedBoostDamageListener X2AbilityTemplate]
+LocFriendlyName="Speed Booster"
+LocLongDescription="Exalted Custodian Power Armor converts damage taken into a +1 mobility buff that lasts for the duration of the enemy turn"
+LocHelpText="Exalted Custodian Power Armor converts damage taken into a +1 mobility buff that lasts for the duration of the enemy turn"
+LocFlyOverText="Speed Booster Activated"
+
+[SpeedBoost X2AbilityTemplate]
+LocFriendlyName="Speed Booster"
+LocLongDescription="Exalted Custodian Power Armor converts damage taken into a +1 mobility buff that lasts for the duration of the enemy turn"
+LocHelpText="Exalted Custodian Power Armor converts damage taken into a +1 mobility buff that lasts for the duration of the enemy turn"
+LocFlyOverText="Speed Booster Activated"
+
+[ExaltedReflexes X2AbilityTemplate]
+LocFriendlyName="Exalted Reflexes"
+LocLongDescription="Exalted Custodian power armor allows Custodians to react with incredible speed to anyone moving within 5 tiles of them, letting them fire their pistol at the enemy"
+LocHelpText="Exalted Custodian power armor allows Custodians to react with incredible speed to anyone moving within 5 tiles of them, letting them fire their pistol at the enemy"
+LocFlyOverText="Exalted Reflexes"
+
+[ExaltedReflexesAttack X2AbilityTemplate]
+LocFriendlyName="Exalted Reflexes"
+LocLongDescription="Exalted Custodian power armor allows Custodians to react with incredible speed to anyone moving within 5 tiles of them, letting them fire their pistol at the enemy"
+LocHelpText="Exalted Custodian power armor allows Custodians to react with incredible speed to anyone moving within 5 tiles of them, letting them fire their pistol at the enemy"
+LocFlyOverText="Exalted Reflexes"
+
+[HiddenShieldStrike X2AbilityTemplate]
+LocFriendlyName="Hidden Shield Strike"
+LocLongDescription="Grandmasters lash out at anyone that enters their melee range with a powerful shield strike, dealing 6 damage, shredding 2 armor and piercing 5 armor"
+LocHelpText="Grandmasters lash out at anyone that enters their melee range with a powerful shield strike, dealing 6 damage, shredding 2 armor and piercing 5 armor"
+LocFlyOverText="Hidden Shield Strike"
+
+[HiddenShieldStrikeAttack X2AbilityTemplate]
+LocFriendlyName="Hidden Shield Strike"
+LocLongDescription="Grandmasters lash out at anyone that enters their melee range with a powerful shield strike, dealing 6 damage, shredding 2 armor and piercing 5 armor"
+LocHelpText="Grandmasters lash out at anyone that enters their melee range with a powerful shield strike, dealing 6 damage, shredding 2 armor and piercing 5 armor"
+LocFlyOverText="Hidden Shield Strike"
+
+[CustodianGrandMasterBlastPadding X2AbilityTemplate]
+LocFriendlyName="Custodian Blast Padding"
+LocLongDescription="Grandmaster gear includes layers of extra padding and blast plates, granting +1 Armor and 66% less damage from explosive attacks."
+LocHelpText="Gain a bonus point of Armor and reduce explosive damage taken."
+LocFlyOverText="Grandmaster Blast Padding"
+
+[SealedUndersuit X2AbilityTemplate]
+LocFriendlyName="Sealed Undersuit"
+LocLongDescription="Custodian Power Armor integrates an advanced sealed undersuit granting immunity to poison and frost"
+LocHelpText="Custodian Power Armor integrates an advanced sealed undersuit granting immunity to poison and frost"
+
+[BulwarkStanceTrigger X2AbilityTemplate]
+LocFriendlyName="Bulwark Stance"
+LocLongDescription="Exalted Custodians go into Bulwark stance during the enemy's turn, gaining +10 defense and +2 armor"
+LocHelpText="Exalted Custodians go into Bulwark stance during the enemy's turn, gaining +10 defense and +2 armor"
+LocFlyOverText="Bulwark Stance"
+
+[BulwarkStanceListener X2AbilityTemplate]
+LocFriendlyName="Bulwark Stance"
+LocLongDescription="Exalted Custodians go into Bulwark stance during the enemy's turn, gaining +10 defense and +2 armor"
+LocHelpText="Exalted Custodians go into Bulwark stance during the enemy's turn, gaining +10 defense and +2 armor"
+LocFlyOverText="Bulwark Stance"
+
+[BulwarkStance X2AbilityTemplate]
+LocFriendlyName="Bulwark Stance"
+LocLongDescription="Exalted Custodians go into Bulwark stance during the enemy's turn, gaining +10 defense and +2 armor"
+LocHelpText="Exalted Custodians go into Bulwark stance during the enemy's turn, gaining +10 defense and +2 armor"
+LocFlyOverText="Bulwark Stance"
+
+[ExaltedShield X2WeaponTemplate]
+FriendlyName="Exalted Shield"
+FriendlyNamePlural="Exalted Shields"
+BriefSummary="Large shields utilized by Exalted Custodians"
+
+[ExaltedGrandmasterShield X2WeaponTemplate]
+FriendlyName="Exalted Grandmaster Shield"
+FriendlyNamePlural="Exalted Grandmaster Shields"
+BriefSummary="Large shields utilized by Exalted Custodian Grandmasters"
+
+[Metion_Shotgun X2WeaponTemplate]
+FriendlyName="Metion Auto Shotgun"
+FriendlyNamePlural="Metion Auto Shotguns"
+BriefSummary="This extremely powerful Shotgun is capable of firing multiple shots in quick succession"
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/>"
+AbilityDescName="Metion Auto Shotgun"
+
+[Metion_AutoShot X2AbilityTemplate]
+LocFriendlyName="Metion Burst Fire"
+LocLongDescription="Fire three shots in a row at an enemy. Each shot suffers a bigger Aim penalty than the last."
+LocHelpText="Fire three shots in a row at an enemy. Each shot suffers a bigger Aim penalty than the last."
+LocFlyOverText="Metion Burst Fire"
+LocPromotionPopupText="<Bullet/> Metion Burst Fire is a devastating ability for dealing ranged damage.<br/>"
+
+
+
+
+;Place localized text in this file
+
+[MetionBattleSuit X2ArmorTemplate]
+FriendlyName="Metion Battlesuit"
+FriendlyNamePlural="Metion Battlesuits"
+BriefSummary="This experimental battlesuit grants massive damage resistance, survivability, as well as a large assortment of weapon systems. The Metion Battlesuit can also deploy a shield that serves as temporary cover for allies."
+TacticalText="<Bullet/> The Metion Battlesuit is equipped with rockets, a magnetic minigun, close range destroyer gauntlet, a hardpoint for heavy weapons and a jetpack system for quick repositioning.\n<Bullet/> The Metion Battlesuit can deploy a shield, allowing the wearer to temporarily act as high cover for squadmates."
+
+[MetionClusterRocket X2AbilityTemplate]
+LocFriendlyName="Metion Rocket Barrage"
+LocLongDescription="Bombard a wide area with a barrage of rockets"
+LocHelpText="Bombard a wide area with a barrage of rockets"
+LocFlyOverText="Rocket Barrage"
+
+[MetionShield X2AbilityTemplate]
+LocFriendlyName="Metion Shield"
+LocLongDescription="Deploy a shield granting cover to allies, decreases defense to the user, but increases Armor and Dodge"
+LocHelpText="Deploys a shield"
+LocFlyOverText="Metion Shield"
+
+[MetionGauntlet X2AbilityTemplate]
+LocFriendlyName="Prototype Plasma Bolt Launcher"
+LocLongDescription="Fires an extremely powerful plasma bolt at melee range"
+LocHelpText="Fire Gauntlet"
+LocFlyOverText="Metion Gauntlet"
+
+[MagneticMiniGun X2AbilityTemplate]
+LocFriendlyName="Akontia pattern Magnetic Minigun"
+LocLongDescription="Fires a rain of magnetic bolts over a wide area"
+LocHelpText="Fire Magnetic Minigun"
+LocFlyOverText="Magnetic Minigun"
+
+[MetionJump X2AbilityTemplate]
+LocFriendlyName="Metion Jetpack"
+LocLongDescription="The large thrusters built onto the Metion Battlesuit allows the user to quickly reposition on the battlefield"
+LocHelpText="Fly to a new location"
+LocFlyOverText="Metion Jetpack"
+
+[MetionKnee X2AbilityTemplate]
+LocFriendlyName="Rocket Knee Strike"
+LocLongDescription="Utilize the thrusters built into the calves of the Battlesuit to deal a quick disorienting knee strike"
+LocHelpText="Disorients target"
+LocFlyOverText="Metion Knee Strike"
+
+
+
+[MetionBattlesuitCrabHelm X2BodyPartTemplate]
+DisplayName="Metion Crab Helm"
+
+[MetionBattlesuitCrabHelmX X2BodyPartTemplate]
+DisplayName="Metion Crab Helm X"
+
+[MetionBattlesuitCrabHelmSkull X2BodyPartTemplate]
+DisplayName="Metion Crab Helm Skull"
+
+[MetionBattlesuitCrabHelm_F X2BodyPartTemplate]
+DisplayName="Metion Crab Helm"
+
+[MetionBattlesuitCrabHelmX_F X2BodyPartTemplate]
+DisplayName="Metion Crab Helm X"
+
+[MetionBattlesuitCrabHelmSkull_F X2BodyPartTemplate]
+DisplayName="Metion Crab Helm Skull"
+
+[MetionBrickhead X2BodyPartTemplate]
+DisplayName="Metion Brick Head"
+
+[MetionBrickheadSkull X2BodyPartTemplate]
+DisplayName="Metion Brick Skull Head"
+
+[MetionCustodianHound X2BodyPartTemplate]
+DisplayName="Metion Custodian Hound"
+
+[MetionCustodianHoundKnight X2BodyPartTemplate]
+DisplayName="Metion Custodian Knight Hound"
+
+[MetionCustodianHoundSkull X2BodyPartTemplate]
+DisplayName="Metion Custodian Hound Skull"
+
+[MetionCustodianHoundWhite X2BodyPartTemplate]
+DisplayName="Metion Custodian Hound White"
+
+[MetionCustodianHoundWolfSkull X2BodyPartTemplate]
+DisplayName="Metion Custodian Hound Wolf Skull"
+
+[MetionXiphosCrab X2BodyPartTemplate]
+DisplayName="Metion Xiphos Crab Helm"
+
+[MetionXiphosCrabCrabPaint X2BodyPartTemplate]
+DisplayName="Metion Xiphos Crab Helm Crab Paint"
+
+[MetionXiphosCrabOneEye X2BodyPartTemplate]
+DisplayName="Metion Xiphos Crab One Eye"
+
+[MetionXiphosWhite X2BodyPartTemplate]
+DisplayName="Metion Xiphos Crab White"
+
+[MetionBrickhead_F X2BodyPartTemplate]
+DisplayName="Metion Brick Head"
+
+[MetionBrickheadSkull_F X2BodyPartTemplate]
+DisplayName="Metion Brick Skull Head"
+
+[MetionCustodianHound_F X2BodyPartTemplate]
+DisplayName="Metion Custodian Hound"
+
+[MetionCustodianHoundKnight_F X2BodyPartTemplate]
+DisplayName="Metion Custodian Knight Hound"
+
+[MetionCustodianHoundSkull_F X2BodyPartTemplate]
+DisplayName="Metion Custodian Hound Skull"
+
+[MetionCustodianHoundWhite_F X2BodyPartTemplate]
+DisplayName="Metion Custodian Hound White"
+
+[MetionCustodianHoundWolfSkull_F X2BodyPartTemplate]
+DisplayName="Metion Custodian Hound Wolf Skull"
+
+[MetionXiphosCrab_F X2BodyPartTemplate]
+DisplayName="Metion Xiphos Crab Helm"
+
+[MetionXiphosCrabCrabPaint_F X2BodyPartTemplate]
+DisplayName="Metion Xiphos Crab Helm Crab Paint"
+
+[MetionXiphosCrabOneEye_F X2BodyPartTemplate]
+DisplayName="Metion Xiphos Crab One Eye"
+
+[MetionXiphosWhite_F X2BodyPartTemplate]
+DisplayName="Metion Xiphos Crab White"
+
+
+[Mk2_Custodian X2CharacterTemplate]
+strCharacterName="ADVENT Mark 2 Custodian"
+strAcquiredText="Mark 2 Custodians use lighter armor than their older variant and utilize a wide variety of crowd control tools"
+
+[AdventCustodian_Mk2_Shield X2WeaponTemplate]
+FriendlyName="ADVENT Custodian Mark 2 Shield"
+FriendlyNamePlural="ADVENT Custodian Mark 2 Shields"
+BriefSummary="A smaller and lighter shield, the reduced weight allows Mark 2 Custodians to have superior mobility to their heavier cousins and allows them to bash enemies with it"
+TacticalText="<Bullet/> Firing this weapon doesn't take Action Points\n<Bullet/>"
+
+[Custodian_Flechette X2WeaponTemplate]
+FriendlyName="ADVENT Mark 2 Custodian Flechette Launcher"
+FriendlyNamePlural="ADVENT Mark 2 Custodian Flechette Launchers"
+BriefSummary="Shoulder mounted flechette launchers fire small razor sharp projectiles designed to embed themselves in bones and joints to hinder mobility"
+TacticalText="<Bullet/> Firing this weapon takes 1 Action Point\n<Bullet/>"
+
+[AdventCustodian_AutoPistol X2WeaponTemplate]
+FriendlyName="ADVENT Custodian Automatic Pistol"
+FriendlyNamePlural="ADVENT Custodian Automatic Pistols"
+BriefSummary="This unusual heavy Autopistol fires in a wide horizontal spread"
+TacticalText="<Bullet/> Firing this weapon takes 1 Action Point\n<Bullet/>"
+
+[AdventCustodian_AutoPistol X2WeaponTemplate]
+FriendlyName="ADVENT Custodian Automatic Pistol"
+FriendlyNamePlural="ADVENT Custodian Automatic Pistols"
+BriefSummary="This unusual heavy Autopistol fires in a wide horizontal spread"
+TacticalText="<Bullet/> Firing this weapon takes 1 Action Point\n<Bullet/>"
+
+[HyperDriveVest X2EquipmentTemplate]
+FriendlyName="Hyperdrive Serum Injector Vest"
+FriendlyNamePlural="Hyperdrive Serum Injector Vests"
+BriefSummary="This underlay vest is intended to inject a powerful drug allowing the user to heal during combat while heightening their combat capabilities at the expense of severe bleeding"
+TacticalText="<Bullet/> Grants the Hyperdrive Serum ability<Bullet/>"
+
+[ControlGrenade X2GrenadeTemplate]
+FriendlyName="ADVENT Custodian Control Grenade"
+FriendlyNamePlural="ADVENT Custodian Control Grenades"
+BriefSummary="A combination of shrapnel, flashbang and smoke grenade. The initial explosion is powerful enough to shred armor and inflict bleeding, while also disorienting soldiers, and enveloping them in a cloud of smoke granting cover."
+TacticalText="<Bullet/> A combination of shrapnel, flashbang and smoke grenade, control grenades inflict bleeding on those hit.<br>Control grenades are effective at neutralizing and limiting the movement of large groups of enemies.<Bullet/>"
+ThrownAbilityName="Throw Control Grenade"
+ThrownAbilityHelpText="Throw a Control grenade at target area."
+
+
+[Xcom_Flechette X2WeaponTemplate]
+FriendlyName="Flechette Gun"
+FriendlyNamePlural="Flechette Guns"
+BriefSummary="Flechette Guns fire small razor sharp projectiles designed to embed themselves in bones and joints to hinder mobility"
+TacticalText="<Bullet/> Firing this weapon takes 1 Action Point<Bullet/>"
+
+[XcomHyperDriveVest X2WeaponTemplate]
+FriendlyName="Hyperdrive Serum Injector Vest"
+FriendlyNamePlural="Hyperdrive Serum Injector Vests"
+BriefSummary="This vest injects a powerful drug allowing the user to heal during combat while heightening their combat capabilities at the expense of severe bleeding"
+TacticalText="<Bullet/> Grants the Hyperdrive Serum ability<Bullet/>"
+
+[XcomBrainCord X2WeaponTemplate]
+FriendlyName="Brain Cord"
+FriendlyNamePlural="Brain Cords"
+BriefSummary="Made from the remains of Custodian Grandmasters, this device can interfere with the Advent Network Tower, debuffing all Advent troops in the map"
+TacticalText="<Bullet/> Using this weapon takes 1 Action Point<Bullet/>"
+
+[XcomControlGrenade X2GrenadeTemplate]
+FriendlyName="Control Grenade"
+FriendlyNamePlural="Control Grenades"
+BriefSummary="A combination of shrapnel, flashbang and smoke grenade. The initial explosion is powerful enough to shred armor and inflict bleeding, while also disorienting enemies, and enveloping them in a cloud of smoke granting cover."
+TacticalText="<Bullet/> A combination of shrapnel, flashbang and smoke grenade, control grenades inflict bleeding on those hit.<br>Control grenades are effective at neutralizing and limiting the movement of large groups of enemies.<Bullet/>"
+ThrownAbilityName="Throw Control Grenade"
+ThrownAbilityHelpText="Throw a Control grenade at target area."
+
+[XcomDestroyerGauntlet X2WeaponTemplate]
+FriendlyName="Destroyer Cannon"
+FriendlyNamePlural="Destroyer Cannons"
+BriefSummary="Reverse engineered from the Custodian's arm mounted cannon, this heavy weapon fires a piercing explosive shell at short range"
+TacticalText="<Bullet/> Firing this weapon takes 1 Action Point<Bullet/>"
+
+[XcomFlechette X2AbilityTemplate]
+LocFriendlyName="Flechette Shot"
+LocLongDescription="Fires sharp flechettes that hinder mobility"
+LocHelpText="Fires sharp flechettes that inflict a -4 Mobility debuff on the target for 4 turns."
+LocFlyOverText="Flechette Shot"
+LocPromotionPopupText="<Bullet/> Flechettes dig deep into the target hindering mobility.<br/>"
+
+[XcomhyperdriveSerum X2AbilityTemplate]
+LocFriendlyName="Hyperdrive Serum"
+LocHelpText="Gain bonus mobility, mental immunity, heal 20 hit points, but bleeds for 3 turns for 5 points of damage per tick. Does not cost an action to activate."
+LocLongDescription="A soldier taking Hyperdrive Serum receives bonus mobility, mental immunity, and heals 20 hit points, but bleeds for 3 turns for 5 points of damage per tick. This does not cost an action to activate."
+LocFlyOverText="Hyperdrive Serum"
+
+[X2Ability_XcomItems]
+XcomhyperdriveSerumBonusName="Hyperdrive Serum"
+XcomhyperdriveSerumBonusDesc="Bonus mobility, invulnerable to mental effects, healing, but user bleeds 5 points of damage each turn for 3 turns."
+
+[XcomNetworkProxyCommand X2AbilityTemplate]
+LocFriendlyName="Network Haywire Command"
+LocLongDescription="This artificial brain sends a powerful psionic signal to the Advent Network to weaken Advent troops"
+LocHelpText="Map wide debuff that reduces mobility(-4), will(-50), and defense(-15), for 2 turns."
+LocFlyOverText="Network Haywire Command"
+
+[XcomDestroyerGauntlet X2AbilityTemplate]
+LocFriendlyName="Destroyer Gauntlet"
+LocHelpText="Devastating melee attack."
+
+[CustodianAutopistol X2AbilityTemplate]
+LocFriendlyName="Autopistol Burst"
+LocHelpText="Fire your Autopistol."
+
+[CustodianFlechette X2AbilityTemplate]
+LocFriendlyName="Flechette Launchers"
+LocLongDescription="Fires sharp flechettes that hinder mobility"
+LocHelpText="Fires sharp flechettes that inflict a -4 Mobility debuff on the target for 4 turns."
+LocFlyOverText="Flechette Shot"
+LocPromotionPopupText="<Bullet/> Flechettes dig deep into the target hindering mobility.<br/>"
+
+[hyperdriveSerum X2AbilityTemplate]
+LocFriendlyName="Hyperdrive Serum"
+LocHelpText="Gain bonus mobility, heal 20 hit points, but bleeds for 3 turns for 5 points of damage per tick. Costs an action to activate."
+LocLongDescription="The Mark 2 Custodian taking Hyperdrive Serum receives bonus mobility, and heals 20 hit points, but bleeds for 3 turns for 5 points of damage per tick."
+LocFlyOverText="Hyperdrive Serum"
+
+[X2Ability_CustodianMk2]
+XcomhyperdriveSerumBonusName="Hyperdrive Serum"
+XcomhyperdriveSerumBonusDesc="Bonus mobility, healing, but user bleeds 5 points of damage each turn for 3 turns."
+
+[Mk2ShieldBash X2AbilityTemplate]
+LocFriendlyName="Shield Bash"
+LocHelpText="Bash with your shield for 8 damage."
+
+[MetionTech X2TechTemplate]
+DisplayName="ADVENT Exalted Custodian Powered Armor"
+Summary="The initial reports from the field on these exalted custodians described an armor system unlike any seen before, now having one of them in front of me it is easy to see what our forces meant, i believe it is imperative that we study this new armor system, it is possible that we can reverse engineer a similar design for our soldiers."
+CodeName="Taygetus"
+LongDescription="Having seen the Shieldbearer's armor i believed that to be pinnacle of the alien's armor technology, it appears this assessment was incorrect, while the Shieldbearer armor seems to be experimental in nature; This armor appears to be a perfected and battle tested design, the only limitation of the armor appears to be that it is quite large and heavy, not something a normal advent hybrid could utilize, however the most fascinating feature of this armor is its ability to transform the energy of any attack that deals damage to the armor into usable energy, energy that is quickly and efficiently transferred to the armor's internal locomotion systems to improve mobility. \n\n The design of the armor itself is unlike anything i have seen before, essentially the armor is made out of 3 layers, the top layer is made out of interwoven strips of flexible alien alloys, this allows the outer layer of the armor to stretch and deform giving the user far more mobility than one would expect from a heavy armor like this. The second layer is both circuitry, and small tubes of elerium, i believe this to be the method by which the armor absorbs and redirects energy. Finally, the third layer is relatively simple, it is a sealed undersuit that protects the user from environmental hazards such as toxic gas and cold temperatures, it also seems to aid in the control of the armor which allows the user to react with surprising speed to outside threats. Regrettably i do not believe we have the technology neccessary to completely reverse engineer this design, a system as sophisticated as the energy absorbtion and reallocation is beyond our current technology, however i believe we can copy to an extent the design for the outer layer of the armor, along with it's power storage systems.  \n\n Finally, while i believe the potential benefits of reverse engineering the armor utilized by these advent troops to be of the utmost importance, i would be remiss in my duties if i did not properly study the creature under the armor itself, the most striking difference between this hybrid and those we have encountered before is their skin color, a greyish blue skin unlike that of all the other clones we have seen, it is however similar to the skin of the Chosen, is there a connection? There is a mysterious DNA integrated into these hybrids that i cannot identify, and it's purpose seems unclear; The only other physical differences between these Exalted Custodians and the average Custodian is the addition of cybernetic implants under their skin, which i believe have the simple function of aiding in the control of their power armor. It is possible that the only function of this mystery DNA is the skin color change, but if so i remain puzzled as to the reason, does it serve some function that i cannot identify? Or perhaps is it something as simple as a way to show military rank in a more extreme fashion? Or perhaps the simple act of infusing these hybrids with this dna is the purpose, a gift? I'm afraid we will remain ignorant on this issue unless we can interrogate an Elder, something that seems to be unlikely to say the least. \n\n R. Tygan."
+AlertString="Experimental Battlesuit"
+
+[AutopsyCustodian X2TechTemplate]
+DisplayName="ADVENT Custodian Autopsy"
+Summary="These Custodians were amongst the first formal Advent forces seen in the Advent city centers, stationed around places of importance such as the very first gene therapy clinics."
+CodeName="Lorica"
+LongDescription="The Custodian is an Advent troop that seemed to have disappeared after the initial years of occupation, initially they were an ever present force of intimidation in the city centers, their imposing size, and large black polished armor obviously meant to deter any common rebel from opposing Advent. \n\n While that they are hybrids, just like the Advent forces we have become acustomed to, they're not the same as the modern hybrid, the reason for the disappearance seems to be twofold, and indeed obvious now that we understand what Advent are. It appears that the Custodian was an early type of hybrid, designed to serve the very specific purpose of guardianship over Advent assets, and to serve as a deterrent for poorly equipped and disorganized rebels, this is in contrast with the modern hybrid which is capable of serving a multitude of roles simply by utilizing different equipment. These Custodians are physiologically very similar to the standard Advent Hybrid, but the differences are not differences that can be achieved through training or equipment, while not to the extent of the Muton Berserker, their enlarged muscle mass is very clearly the result of genetic tampering, their bone structure is more dense, and even the shape of certain bones is different, the most striking one being their ribcage, with every rib being thicker than usual, i can only assume that the purpose of this is to better protect the subject's respiratory system perhaps even at the expense of some lung function. However, the most important physiological difference between this subject and the modern hybrid appears to be the brain, there are very few traces of tampering with the subject's brain to the point where at a glance is difficult to tell that this is not a human brain, although there's still the presense of a Neurochip, albeit an older version, i'm willing to hazard a guess that these Custodians must have some semblance of free will and independence, at least when compared to the standard Advent trooper. \n\n In regards to their equipment, other than size there is nothing of interest in their armor design, it is very large, and the armor plates are very thick, but that's all there is to them. Their weapon on the other hand is of an intriguing design, while it is a gauss weapon like those used by other Advent forces, it is unique in that it does not utilize a standard magazine, the weapon instead chips away at a large block of alien alloys in order to create it's amunition, these fragments are small enough that the weapon will essentially never run out of ammo in the field, the process however coupled with firing the weapon does create immense heat, therefore requiring the weapon to cool down. I can only guess as to the reason Advent stopped using this design, but as it is a much more complex device when compared to the modern Advent Gauss weaponry i can only assume it is due to the ease of manufacture. I believe it is possible to reverse engineer this system for quickly cooling down a gauss firearm, i have no doubt that Lily will find a use for this design that will aid our troops in combat. \n\n R. Tygan."
+AlertString="Automatic Magnetic Shotgun"
+
+[AutopsyCustodianMaster X2TechTemplate]
+DisplayName="ADVENT Custodian Master Autopsy"
+Summary="These appear to be the commanding officers amongst the Custodian forces, unlike the average Custodian there are no reports of these particular troops being fielded in the Advent city centers, although now that we know of the existence of Advent facilities in the wilderness, is possible that these troops existed back then too, away from the public's sight."
+CodeName="Sfendonai"
+LongDescription="Physiologically identical to the normal Custodian, it appears that the main difference between these Masters and the normal Custodian is simply their equipment, they have traded their sophisticated shotgun for a rifle which is virtually identical to the standard gauss rifle utilized by Advent's conventional forces, the most obvious difference between these masters and their subordinates is the back mounted rocket launcher. Surprisingly low tech for an alien's weapon, this weapon system is not too disimilar from our own conventional rockets, having seen this weapon i now believe that these Custodians were indeed originally intended to only be stationed in the wilderness, perhaps while Advent facilities were in the middle of construction, and it is only now that the battle against the invaders has escalated that the Elders have decided to deploy these forces in more public locations. \n\n While this weapon is also utilized by the standard custodian, we have decided to take a closer look at their forearm mounted weapon system now that we have the Custodian master on the table. Nicknamed the Destroyer by our troops, now taking a look at the projectile i can see why, this projectile is intended to pierce a target and then quickly explode within the target, this not only sends the projectile's casing flying outwards as shrapnel, but the interior of the projectile is also filled with spools of a thin wire made out of alien alloys, all this makes the projectile highly unstable making it impossible to use as a long range weapon, which explains why the Custodians are outfitted with such a weapon, as they were originally stationed inside facilities inside city centers. \n\n R. Tygan."
+AlertString="Destroyer Cannon"
+
+[AutopsyCustodianMK2 X2TechTemplate]
+DisplayName="ADVENT Custodian Mk2 Autopsy"
+Summary="These Custodians appear to be using more modern equipment than the one used by the custodians seen during the early days of the occupation."
+CodeName="Panoply"
+LongDescription="The Mark 2 Custodian is physiologically identical to the standard Custodian and their Masters, however their equipment is far more diverse and modern than the one used by the older generations. It is my assessment that this Custodian is the Elders's attempt at modernizing their design and function. Our troops have reported that these custodians utilize a wide variety of equipment to manipulate the battlefield, having taken a closer look at their weapons and tools i believe it'll be easy for Lily to reverse engineer their shoulder mounted flechette guns and their combination grenade, but of particular interest to my research team is their vest and the serum it utilizes. \n\n This hyperdrive serum appears to be derived from the same drugs used by Muton Berserkers; It greatly increases the user mobility and resistance to pain, however this seems to come at a cost as it greatly damages the user's cardiovascular system to the point of causing veins to burst. I would like to advise our troops against using this serum, however, i cannot deny the tactical value in using this as a last stand of sorts in the same way these Custodians use it. \n\n R. Tygan."
+AlertString="Custodian Mk2 Gear"
+
+[AutopsyExaltedCustodianGrandmaster X2TechTemplate]
+DisplayName="ADVENT Exalted Custodian Grandmaster Autopsy"
+Summary="The ultimate Custodian, the Grandmaster exhibits an ability never before seen in the battlefield, the ability to command the Advent Network to massively improve the combat capabilities of all Advent forces in the battlefield."
+CodeName="Lycurgus"
+LongDescription="Examining this specimen the first thing i noticed is the lack of a helmet designed to hide the more alien features of this hybrid, i can only speculate as to the reason for this, but perhaps there is simply no need now that the battle has escalated to this point. The most striking feature of this specimen is its ability to connect with the Advent Network to a level we had never seen before, i would've expected something like this out of an extremely potent psionic alien, but this creature does not exhibit any psionic traits other than this ability. \n\n The trick so to speak that the Elders have used to give such power to this hybrid lies in the device which is connected to their helmet, inside this device is what i can only describe as a manufactured brain, this braincord then is the key that this creature utilizes to connect to the Advent Network to such an extreme level, in essence i believe this allows the Grandmaster to become a proxy for the network, greatly amplifying its effect on the Advent forces in the viscinity. With this specimen in hand we might have found a potent weapon against the Elders, while something like creating an organic brain is outside our capabilities here in the Avenger, i believe it is possible to modify one, this should allow us to attack the connection Advent troops have with the network, thus weakening them in the field. \n\n R. Tygan."
+AlertString="Braincord"
+
+[MetionBattlesuit X2TechTemplate]
+DisplayName="Metion Battlesuit"
+Summary="A supremely powerful battlesuit designed by Tygan and the research team, while the suit might be a bit unwieldy i believe it more than makes up for it by carrying a multitude of weapon systems while still being an upgrade over the W.A.R. suit in terms of durability L. Shen." 
+
+[Metion_Shotgun X2TechTemplate]
+DisplayName="Metion Pattern Magnetic Automatic Shotgun"
+Summary="This extremely powerful Shotgun is capable of firing multiple shots in quick succession. L. Shen." 
+
+[CorpseCustodian X2ItemTemplate]
+FriendlyName="Custodian Corpse"
+FriendlyNamePlural="Custodian Corpses"
+BriefSummary="Unsurprisingly the corpse of this Advent soldier is quite heavy, requiring multiple men to carry it." 
+
+[CorpseCustodianMaster X2ItemTemplate]
+FriendlyName="Custodian Master Corpse"
+FriendlyNamePlural="Custodian Master Corpses"
+BriefSummary="The large rocket weaponry outfitted on these Custodia masters still contain live ammunition, i must admit having seen footage of these weaposn i'm a bit worried about how hazardous manipulating this corpse could be"
+
+[CorpseCustodianMk2 X2ItemTemplate]
+FriendlyName="Custodian Mark 2 Corpse"
+FriendlyNamePlural="Custodian Mark 2 Corpses"
+BriefSummary="The armor of these custodians bears a striking red pattern, perhaps it is meant to signify rank or combat specialization" 
+
+[CorpseExaltedCustodian X2ItemTemplate]
+FriendlyName="Exalted Custodian Corpse"
+FriendlyNamePlural="Exalted Custodian Corpses"
+BriefSummary="The surface of this armor is icy cold to the touch and a slight hum can be heard from within the armor, it appears this armor can remain operational despite taking serious damage and long after the user expires" 
+
+[CorpseExaltedCustodianGrandmaster X2ItemTemplate]
+FriendlyName="Exalted Custodian Grandmaster Corpse"
+FriendlyNamePlural="Exalted Custodian Grandmaster Corpses"
+BriefSummary="These hybrids have forgone the use of a helmet to hide their alien faces, despite their blue skin the blood of these hybrids is the same distinct orange color as other hybrids" 
+
+[Advent_Courier X2CharacterTemplate]
+strCharacterName="ADVENT Courier"
+strAcquiredText="ADVENT Couriers are extremely nimble Advent tasked with moving sensitive information and important resources in secret"
+
+[CustodianEscort X2SitRepTemplate]
+FriendlyName="Advent Couriers staging area"
+Description="ADVENT Couriers have been spotted in this area, they're being escorted by large numbers of heavily armed ADVENT Custodians"
+
+[CustodianEscort X2SitRepEffect_ModifyDefaultEncounterLists]
+FriendlyName="Advent Couriers staging area"
+Description="ADVENT Couriers have been spotted in this area, they're being escorted by large numbers of heavily armed ADVENT Custodians"
+
+[Courier_SMG_Suppressed X2WeaponTemplate]
+FriendlyName="ADVENT Suppressed SMG"
+FriendlyNamePlural="ADVENT Suppressed SMGs"
+BriefSummary="Couriers utilize lightweight SMGs to"
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn\n<Bullet/>"
